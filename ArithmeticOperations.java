@@ -11,7 +11,7 @@ public class ArithmeticOperations {
     }
     public float divide(int a, int b) {
         if (b == 0) {
-            System.out.println("Division by zero is not allowed.");
+            System.out.println("Wrong Operation");
             return 0;
         }
         return (float) a / b;
